@@ -1,0 +1,791 @@
+OrderID,CustomerID,Product,Category,Quantity,UnitPrice,OrderDate,PaymentMethod,City,DeliveryStatus,ReturnFlag
+O1001,C01,Phone,Electronics,1,50000,2023-01-10,Credit Card,Karachi,Delivered,0
+O1002,C02,Laptop,Electronics,,120000,2023-02-15,Cash,Islamabad,Delivered,0
+O1003,C03,Headphones,Electronics,2,,2023-03-12,Card,Lahore,Returned,1
+O1004,C04,Shirt,Fashion,3,2000,2023-01-25,Cash,,Delivered,0
+O1005,C05,Shoes,Fashion,1,5000,2023-02-10,Card,Karachi,Delivered,
+O1006,C01,Phone,Electronics,1,50000,2023-01-10,Credit Card,Karachi,Delivered,0
+O1007,C06,Watch,Fashion,2,15000,2023-04-01,Cash,Lahore,Delivered,0
+O1008,C07,Tablet,Electronics,1,80000,2023-05-20,Credit Card,Islamabad,Returned,1
+O1009,C08,Shirt,Fashion,4,1800,2023-06-15,Card,Karachi,Delivered,0
+O1010,C09,Shoes,Fashion,2,5500,2023-07-10,Cash,Lahore,Delivered,0s
+O1011,C10,Phone,Electronics,1,52000,2023-07-12,Credit Card,Karachi,Delivered,0
+O1012,C11,Laptop,Electronics,1,125000,2023-07-13,Cash,Lahore,Delivered,0
+O1013,C12,Headphones,Electronics,2,4000,2023-07-14,Card,Islamabad,Returned,1
+O1014,C13,Shirt,Fashion,3,2200,2023-07-15,Cash,Karachi,Delivered,0
+O1015,C14,Shoes,Fashion,1,6000,2023-07-16,Card,Lahore,Delivered,0
+O1016,C15,Watch,Fashion,2,14000,2023-07-17,Credit Card,Karachi,Delivered,0
+O1017,C16,Tablet,Electronics,1,85000,2023-07-18,Cash,Islamabad,Returned,1
+O1018,C17,Phone,Electronics,1,51000,2023-07-19,Card,Lahore,Delivered,0
+O1019,C18,Shirt,Fashion,4,1900,2023-07-20,Cash,Karachi,Delivered,0
+O1020,C19,Shoes,Fashion,2,5300,2023-07-21,Card,Lahore,Delivered,0
+O1021,C20,Laptop,Electronics,1,118000,2023-07-22,Credit Card,Karachi,Delivered,0
+O1022,C21,Headphones,Electronics,2,,2023-07-23,Cash,Lahore,Returned,1
+O1023,C22,Shirt,Fashion,3,2100,2023-07-24,Card,Islamabad,Delivered,0
+O1024,C23,Shoes,Fashion,1,5800,2023-07-25,Cash,,Delivered,0
+O1025,C24,Watch,Fashion,2,15000,2023-07-26,Card,Karachi,Delivered,
+O1026,C25,Tablet,Electronics,1,78000,2023-07-27,Credit Card,Lahore,Delivered,0
+O1027,C26,Phone,Electronics,1,49500,2023-07-28,Cash,Karachi,Delivered,0
+O1028,C27,Laptop,Electronics,,130000,2023-07-29,Card,Islamabad,Returned,1
+O1029,C28,Headphones,Electronics,2,3500,2023-07-30,Cash,Lahore,Delivered,0
+O1030,C29,Shirt,Fashion,4,2000,2023-07-31,Card,Karachi,Delivered,0
+O1031,C30,Shoes,Fashion,2,5600,2023-08-01,Cash,Lahore,Delivered,0
+O1032,C31,Watch,Fashion,1,15500,2023-08-02,Credit Card,Karachi,Delivered,0
+O1033,C32,Tablet,Electronics,1,82000,2023-08-03,Card,Islamabad,Returned,1
+O1034,C33,Phone,Electronics,1,50500,2023-08-04,Cash,Karachi,Delivered,0
+O1035,C34,Laptop,Electronics,1,122000,2023-08-05,Credit Card,Lahore,Delivered,0
+O1036,C35,Headphones,Electronics,2,3800,2023-08-06,Cash,Karachi,Delivered,0
+O1037,C36,Shirt,Fashion,3,2100,2023-08-07,Card,Lahore,Returned,1
+O1038,C37,Shoes,Fashion,1,5700,2023-08-08,Cash,Islamabad,Delivered,0
+O1039,C38,Watch,Fashion,2,14500,2023-08-09,Card,Karachi,Delivered,0
+O1040,C39,Tablet,Electronics,1,81000,2023-08-10,Credit Card,Lahore,Delivered,0
+O1041,C40,Phone,Electronics,1,50000,2023-08-11,Cash,Karachi,Delivered,0
+O1042,C41,Laptop,Electronics,1,121000,2023-08-12,Card,Lahore,Delivered,0
+O1043,C42,Headphones,Electronics,2,3600,2023-08-13,Cash,Islamabad,Returned,1
+O1044,C43,Shirt,Fashion,3,2000,2023-08-14,Card,Karachi,Delivered,0
+O1045,C44,Shoes,Fashion,1,5900,2023-08-15,Cash,Lahore,Delivered,0
+O1046,C45,Watch,Fashion,2,14800,2023-08-16,Credit Card,Karachi,Delivered,0
+O1047,C46,Tablet,Electronics,1,83000,2023-08-17,Card,Islamabad,Returned,1
+O1048,C47,Phone,Electronics,1,51500,2023-08-18,Cash,Karachi,Delivered,0
+O1049,C48,Shirt,Fashion,4,1950,2023-08-19,Card,Lahore,Delivered,0
+O1050,C49,Shoes,Fashion,2,5400,2023-08-20,Cash,Karachi,Delivered,0
+O1051,C50,Laptop,Electronics,1,119000,2023-08-21,Credit Card,Lahore,Delivered,0
+O1052,C51,Headphones,Electronics,2,3700,2023-08-22,Cash,Karachi,Delivered,0
+O1053,C52,Shirt,Fashion,3,2050,2023-08-23,Card,Lahore,Returned,1
+O1054,C53,Shoes,Fashion,1,5800,2023-08-24,Cash,Islamabad,Delivered,0
+O1055,C54,Watch,Fashion,2,15200,2023-08-25,Card,Karachi,Delivered,0
+O1056,C55,Tablet,Electronics,1,80000,2023-08-26,Credit Card,Lahore,Delivered,0
+O1057,C56,Phone,Electronics,1,50500,2023-08-27,Cash,Karachi,Delivered,0
+O1058,C57,Laptop,Electronics,1,123000,2023-08-28,Card,Lahore,Delivered,0
+O1059,C58,Headphones,Electronics,2,3900,2023-08-29,Cash,Islamabad,Returned,1
+O1060,C59,Shirt,Fashion,4,2100,2023-08-30,Card,Karachi,Delivered,0
+O1061,C60,Shoes,Fashion,2,5500,2023-08-31,Cash,Lahore,Delivered,0
+O1062,C61,Watch,Fashion,1,14900,2023-09-01,Credit Card,Karachi,Delivered,0
+O1063,C62,Tablet,Electronics,1,82000,2023-09-02,Card,Islamabad,Returned,1
+O1064,C63,Phone,Electronics,1,51000,2023-09-03,Cash,Karachi,Delivered,0
+O1065,C64,Laptop,Electronics,1,120000,2023-09-04,Credit Card,Lahore,Delivered,0
+O1066,C65,Headphones,Electronics,2,3800,2023-09-05,Cash,Karachi,Delivered,0
+O1067,C66,Shirt,Fashion,3,2000,2023-09-06,Card,Lahore,Returned,1
+O1068,C67,Shoes,Fashion,1,5700,2023-09-07,Cash,Islamabad,Delivered,0
+O1069,C68,Watch,Fashion,2,15000,2023-09-08,Card,Karachi,Delivered,0
+O1070,C69,Tablet,Electronics,1,81000,2023-09-09,Credit Card,Lahore,Delivered,0
+O1071,C70,Phone,Electronics,1,50000,2023-09-10,Cash,Karachi,Delivered,0
+O1072,C71,Laptop,Electronics,1,122000,2023-09-11,Card,Lahore,Delivered,0
+O1073,C72,Headphones,Electronics,2,3600,2023-09-12,Cash,Islamabad,Returned,1
+O1074,C73,Shirt,Fashion,3,2100,2023-09-13,Card,Karachi,Delivered,0
+O1075,C74,Shoes,Fashion,1,5900,2023-09-14,Cash,Lahore,Delivered,0
+O1076,C75,Watch,Fashion,2,14800,2023-09-15,Credit Card,Karachi,Delivered,0
+O1077,C76,Tablet,Electronics,1,83000,2023-09-16,Card,Islamabad,Returned,1
+O1078,C77,Phone,Electronics,1,51500,2023-09-17,Cash,Karachi,Delivered,0
+O1079,C78,Shirt,Fashion,4,1950,2023-09-18,Card,Lahore,Delivered,0
+O1080,C79,Shoes,Fashion,2,5400,2023-09-19,Cash,Karachi,Delivered,0
+O1081,C80,Laptop,Electronics,1,119000,2023-09-20,Credit Card,Lahore,Delivered,0
+O1082,C81,Headphones,Electronics,2,3700,2023-09-21,Cash,Karachi,Delivered,0
+O1083,C82,Shirt,Fashion,3,2050,2023-09-22,Card,Lahore,Returned,1
+O1084,C83,Shoes,Fashion,1,5800,2023-09-23,Cash,Islamabad,Delivered,0
+O1085,C84,Watch,Fashion,2,15200,2023-09-24,Card,Karachi,Delivered,0
+O1086,C85,Tablet,Electronics,1,80000,2023-09-25,Credit Card,Lahore,Delivered,0
+O1087,C86,Phone,Electronics,1,50500,2023-09-26,Cash,Karachi,Delivered,0
+O1088,C87,Laptop,Electronics,1,123000,2023-09-27,Card,Lahore,Delivered,0
+O1089,C88,Headphones,Electronics,2,3900,2023-09-28,Cash,Islamabad,Returned,1
+O1090,C89,Shirt,Fashion,4,2100,2023-09-29,Card,Karachi,Delivered,0
+O1091,C90,Shoes,Fashion,2,5500,2023-09-30,Cash,Lahore,Delivered,0
+O1092,C91,Watch,Fashion,1,14900,2023-10-01,Credit Card,Karachi,Delivered,0
+O1093,C92,Tablet,Electronics,1,82000,2023-10-02,Card,Islamabad,Returned,1
+O1094,C93,Phone,Electronics,1,51000,2023-10-03,Cash,Karachi,Delivered,0
+O1095,C94,Laptop,Electronics,1,120000,2023-10-04,Credit Card,Lahore,Delivered,0
+O1096,C95,Headphones,Electronics,2,3800,2023-10-05,Cash,Karachi,Delivered,0
+O1097,C96,Shirt,Fashion,3,2000,2023-10-06,Card,Lahore,Returned,1
+O1098,C97,Shoes,Fashion,1,5700,2023-10-07,Cash,Islamabad,Delivered,0
+O1099,C98,Watch,Fashion,2,15000,2023-10-08,Card,Karachi,Delivered,0
+O1100,C99,Tablet,Electronics,1,81000,2023-10-09,Credit Card,Lahore,Delivered,0
+O1101,C100,Phone,Electronics,1,50500,2023-10-10,Cash,Karachi,Delivered,0
+O1102,C101,Laptop,Electronics,1,121000,2023-10-11,Card,Lahore,Delivered,0
+O1103,C102,Headphones,Electronics,2,3700,2023-10-12,Cash,Islamabad,Returned,1
+O1104,C103,Shirt,Fashion,3,2100,2023-10-13,Card,Karachi,Delivered,0
+O1105,C104,Shoes,Fashion,1,5800,2023-10-14,Cash,Lahore,Delivered,0
+O1106,C105,Watch,Fashion,2,15000,2023-10-15,Credit Card,Karachi,Delivered,0
+O1107,C106,Tablet,Electronics,1,82000,2023-10-16,Card,Islamabad,Returned,1
+O1108,C107,Phone,Electronics,1,51000,2023-10-17,Cash,Karachi,Delivered,0
+O1109,C108,Shirt,Fashion,4,2000,2023-10-18,Card,Lahore,Delivered,0
+O1110,C109,Shoes,Fashion,2,5500,2023-10-19,Cash,Karachi,Delivered,0
+O1111,C110,Laptop,Electronics,1,119000,2023-10-20,Credit Card,Lahore,Delivered,0
+O1112,C111,Headphones,Electronics,2,,2023-10-21,Cash,Karachi,Returned,1
+O1113,C112,Shirt,Fashion,3,2050,2023-10-22,Card,Islamabad,Delivered,0
+O1114,C113,Shoes,Fashion,1,5700,2023-10-23,Cash,,Delivered,0
+O1115,C114,Watch,Fashion,2,15200,2023-10-24,Card,Karachi,Delivered,
+O1116,C115,Tablet,Electronics,1,80000,2023-10-25,Credit Card,Lahore,Delivered,0
+O1117,C116,Phone,Electronics,1,50000,2023-10-26,Cash,Karachi,Delivered,0
+O1118,C117,Laptop,Electronics,,123000,2023-10-27,Card,Islamabad,Returned,1
+O1119,C118,Headphones,Electronics,2,3900,2023-10-28,Cash,Lahore,Delivered,0
+O1120,C119,Shirt,Fashion,4,2100,2023-10-29,Card,Karachi,Delivered,0
+O1121,C120,Shoes,Fashion,2,5600,2023-10-30,Cash,Lahore,Delivered,0
+O1122,C121,Watch,Fashion,1,14800,2023-10-31,Credit Card,Karachi,Delivered,0
+O1123,C122,Tablet,Electronics,1,83000,2023-11-01,Card,Islamabad,Returned,1
+O1124,C123,Phone,Electronics,1,51500,2023-11-02,Cash,Karachi,Delivered,0
+O1125,C124,Laptop,Electronics,1,122000,2023-11-03,Credit Card,Lahore,Delivered,0
+O1126,C125,Headphones,Electronics,2,3800,2023-11-04,Cash,Karachi,Delivered,0
+O1127,C126,Shirt,Fashion,3,2000,2023-11-05,Card,Lahore,Returned,1
+O1128,C127,Shoes,Fashion,1,5900,2023-11-06,Cash,Islamabad,Delivered,0
+O1129,C128,Watch,Fashion,2,15000,2023-11-07,Card,Karachi,Delivered,0
+O1130,C129,Tablet,Electronics,1,81000,2023-11-08,Credit Card,Lahore,Delivered,0
+O1131,C130,Phone,Electronics,1,50000,2023-11-09,Cash,Karachi,Delivered,0
+O1132,C131,Laptop,Electronics,1,121000,2023-11-10,Card,Lahore,Delivered,0
+O1133,C132,Headphones,Electronics,2,3600,2023-11-11,Cash,Islamabad,Returned,1
+O1134,C133,Shirt,Fashion,3,2100,2023-11-12,Card,Karachi,Delivered,0
+O1135,C134,Shoes,Fashion,1,5800,2023-11-13,Cash,Lahore,Delivered,0
+O1136,C135,Watch,Fashion,2,14800,2023-11-14,Credit Card,Karachi,Delivered,0
+O1137,C136,Tablet,Electronics,1,82000,2023-11-15,Card,Islamabad,Returned,1
+O1138,C137,Phone,Electronics,1,51000,2023-11-16,Cash,Karachi,Delivered,0
+O1139,C138,Shirt,Fashion,4,1950,2023-11-17,Card,Lahore,Delivered,0
+O1140,C139,Shoes,Fashion,2,5400,2023-11-18,Cash,Karachi,Delivered,0
+O1141,C140,Laptop,Electronics,1,119000,2023-11-19,Credit Card,Lahore,Delivered,0
+O1142,C141,Headphones,Electronics,2,3700,2023-11-20,Cash,Karachi,Delivered,0
+O1143,C142,Shirt,Fashion,3,2050,2023-11-21,Card,Lahore,Returned,1
+O1144,C143,Shoes,Fashion,1,5800,2023-11-22,Cash,Islamabad,Delivered,0
+O1145,C144,Watch,Fashion,2,15200,2023-11-23,Card,Karachi,Delivered,0
+O1146,C145,Tablet,Electronics,1,80000,2023-11-24,Credit Card,Lahore,Delivered,0
+O1147,C146,Phone,Electronics,1,50500,2023-11-25,Cash,Karachi,Delivered,0
+O1148,C147,Laptop,Electronics,1,123000,2023-11-26,Card,Lahore,Delivered,0
+O1149,C148,Headphones,Electronics,2,3900,2023-11-27,Cash,Islamabad,Returned,1
+O1150,C149,Shirt,Fashion,4,2100,2023-11-28,Card,Karachi,Delivered,0
+O1151,C150,Shoes,Fashion,2,5500,2023-11-29,Cash,Lahore,Delivered,0
+O1152,C151,Watch,Fashion,1,14900,2023-11-30,Credit Card,Karachi,Delivered,0
+O1153,C152,Tablet,Electronics,1,82000,2023-12-01,Card,Islamabad,Returned,1
+O1154,C153,Phone,Electronics,1,51000,2023-12-02,Cash,Karachi,Delivered,0
+O1155,C154,Laptop,Electronics,1,120000,2023-12-03,Credit Card,Lahore,Delivered,0
+O1156,C155,Headphones,Electronics,2,3800,2023-12-04,Cash,Karachi,Delivered,0
+O1157,C156,Shirt,Fashion,3,2000,2023-12-05,Card,Lahore,Returned,1
+O1158,C157,Shoes,Fashion,1,5700,2023-12-06,Cash,Islamabad,Delivered,0
+O1159,C158,Watch,Fashion,2,15000,2023-12-07,Card,Karachi,Delivered,0
+O1160,C159,Tablet,Electronics,1,81000,2023-12-08,Credit Card,Lahore,Delivered,0
+O1161,C160,Phone,Electronics,1,50000,2023-12-09,Cash,Karachi,Delivered,0
+O1162,C161,Laptop,Electronics,1,122000,2023-12-10,Card,Lahore,Delivered,0
+O1163,C162,Headphones,Electronics,2,3600,2023-12-11,Cash,Islamabad,Returned,1
+O1164,C163,Shirt,Fashion,3,2100,2023-12-12,Card,Karachi,Delivered,0
+O1165,C164,Shoes,Fashion,1,5900,2023-12-13,Cash,Lahore,Delivered,0
+O1166,C165,Watch,Fashion,2,14800,2023-12-14,Credit Card,Karachi,Delivered,0
+O1167,C166,Tablet,Electronics,1,83000,2023-12-15,Card,Islamabad,Returned,1
+O1168,C167,Phone,Electronics,1,51500,2023-12-16,Cash,Karachi,Delivered,0
+O1169,C168,Shirt,Fashion,4,1950,2023-12-17,Card,Lahore,Delivered,0
+O1170,C169,Shoes,Fashion,2,5400,2023-12-18,Cash,Karachi,Delivered,0
+O1171,C170,Laptop,Electronics,1,119000,2023-12-19,Credit Card,Lahore,Delivered,0
+O1172,C171,Headphones,Electronics,2,3700,2023-12-20,Cash,Karachi,Delivered,0
+O1173,C172,Shirt,Fashion,3,2050,2023-12-21,Card,Lahore,Returned,1
+O1174,C173,Shoes,Fashion,1,5800,2023-12-22,Cash,Islamabad,Delivered,0
+O1175,C174,Watch,Fashion,2,15200,2023-12-23,Card,Karachi,Delivered,0
+O1176,C175,Tablet,Electronics,1,80000,2023-12-24,Credit Card,Lahore,Delivered,0
+O1177,C176,Phone,Electronics,1,50500,2023-12-25,Cash,Karachi,Delivered,0
+O1178,C177,Laptop,Electronics,1,123000,2023-12-26,Card,Lahore,Delivered,0
+O1179,C178,Headphones,Electronics,2,3900,2023-12-27,Cash,Islamabad,Returned,1
+O1180,C179,Shirt,Fashion,4,2100,2023-12-28,Card,Karachi,Delivered,0
+O1181,C180,Shoes,Fashion,2,5500,2023-12-29,Cash,Lahore,Delivered,0
+O1182,C181,Watch,Fashion,1,14900,2023-12-30,Credit Card,Karachi,Delivered,0
+O1183,C182,Tablet,Electronics,1,82000,2023-12-31,Card,Islamabad,Returned,1
+O1184,C183,Phone,Electronics,1,51000,2024-01-01,Cash,Karachi,Delivered,0
+O1185,C184,Laptop,Electronics,1,120000,2024-01-02,Credit Card,Lahore,Delivered,0
+O1186,C185,Headphones,Electronics,2,3800,2024-01-03,Cash,Karachi,Delivered,0
+O1187,C186,Shirt,Fashion,3,2000,2024-01-04,Card,Lahore,Returned,1
+O1188,C187,Shoes,Fashion,1,5700,2024-01-05,Cash,Islamabad,Delivered,0
+O1189,C188,Watch,Fashion,2,15000,2024-01-06,Card,Karachi,Delivered,0
+O1190,C189,Tablet,Electronics,1,81000,2024-01-07,Credit Card,Lahore,Delivered,0
+O1191,C190,Phone,Electronics,1,50000,2024-01-08,Cash,Karachi,Delivered,0
+O1192,C191,Laptop,Electronics,1,122000,2024-01-09,Card,Lahore,Delivered,0
+O1193,C192,Headphones,Electronics,2,3600,2024-01-10,Cash,Islamabad,Returned,1
+O1194,C193,Shirt,Fashion,3,2100,2024-01-11,Card,Karachi,Delivered,0
+O1195,C194,Shoes,Fashion,1,5900,2024-01-12,Cash,Lahore,Delivered,0
+O1196,C195,Watch,Fashion,2,14800,2024-01-13,Credit Card,Karachi,Delivered,0
+O1197,C196,Tablet,Electronics,1,83000,2024-01-14,Card,Islamabad,Returned,1
+O1198,C197,Phone,Electronics,1,51500,2024-01-15,Cash,Karachi,Delivered,0
+O1199,C198,Shirt,Fashion,4,1950,2024-01-16,Card,Lahore,Delivered,0
+O1200,C199,Shoes,Fashion,2,5400,2024-01-17,Cash,Karachi,Delivered,0
+O1201,C200,Laptop,Electronics,1,119000,2024-01-18,Credit Card,Lahore,Delivered,0
+O1202,C201,Headphones,Electronics,2,3700,2024-01-19,Cash,Karachi,Delivered,0
+O1203,C202,Shirt,Fashion,3,2050,2024-01-20,Card,Lahore,Returned,1
+O1204,C203,Shoes,Fashion,1,5800,2024-01-21,Cash,Islamabad,Delivered,0
+O1205,C204,Watch,Fashion,2,15200,2024-01-22,Card,Karachi,Delivered,0
+O1206,C205,Tablet,Electronics,1,80000,2024-01-23,Credit Card,Lahore,Delivered,0
+O1207,C206,Phone,Electronics,1,50500,2024-01-24,Cash,Karachi,Delivered,0
+O1208,C207,Laptop,Electronics,1,123000,2024-01-25,Card,Lahore,Delivered,0
+O1209,C208,Headphones,Electronics,2,3900,2024-01-26,Cash,Islamabad,Returned,1
+O1210,C209,Shirt,Fashion,4,2100,2024-01-27,Card,Karachi,Delivered,0
+O1211,C210,Shoes,Fashion,2,5500,2024-01-28,Cash,Lahore,Delivered,0
+O1212,C211,Watch,Fashion,1,14900,2024-01-29,Credit Card,Karachi,Delivered,0
+O1213,C212,Tablet,Electronics,1,82000,2024-01-30,Card,Islamabad,Returned,1
+O1214,C213,Phone,Electronics,1,51000,2024-01-31,Cash,Karachi,Delivered,0
+O1215,C214,Laptop,Electronics,1,120000,2024-02-01,Credit Card,Lahore,Delivered,0
+O1216,C215,Headphones,Electronics,2,3800,2024-02-02,Cash,Karachi,Delivered,0
+O1217,C216,Shirt,Fashion,3,2000,2024-02-03,Card,Lahore,Returned,1
+O1218,C217,Shoes,Fashion,1,5700,2024-02-04,Cash,Islamabad,Delivered,0
+O1219,C218,Watch,Fashion,2,15000,2024-02-05,Card,Karachi,Delivered,0
+O1220,C219,Tablet,Electronics,1,81000,2024-02-06,Credit Card,Lahore,Delivered,0
+O1221,C220,Phone,Electronics,1,50000,2024-02-07,Cash,Karachi,Delivered,0
+O1222,C221,Laptop,Electronics,1,122000,2024-02-08,Card,Lahore,Delivered,0
+O1223,C222,Headphones,Electronics,2,3600,2024-02-09,Cash,Islamabad,Returned,1
+O1224,C223,Shirt,Fashion,3,2100,2024-02-10,Card,Karachi,Delivered,0
+O1225,C224,Shoes,Fashion,1,5900,2024-02-11,Cash,Lahore,Delivered,0
+O1226,C225,Watch,Fashion,2,14800,2024-02-12,Credit Card,Karachi,Delivered,0
+O1227,C226,Tablet,Electronics,1,83000,2024-02-13,Card,Islamabad,Returned,1
+O1228,C227,Phone,Electronics,1,51500,2024-02-14,Cash,Karachi,Delivered,0
+O1229,C228,Shirt,Fashion,4,1950,2024-02-15,Card,Lahore,Delivered,0
+O1230,C229,Shoes,Fashion,2,5400,2024-02-16,Cash,Karachi,Delivered,0
+O1231,C230,Laptop,Electronics,1,119000,2024-02-17,Credit Card,Lahore,Delivered,0
+O1232,C231,Headphones,Electronics,2,3700,2024-02-18,Cash,Karachi,Delivered,0
+O1233,C232,Shirt,Fashion,3,2050,2024-02-19,Card,Lahore,Returned,1
+O1234,C233,Shoes,Fashion,1,5800,2024-02-20,Cash,Islamabad,Delivered,0
+O1235,C234,Watch,Fashion,2,15200,2024-02-21,Card,Karachi,Delivered,0
+O1236,C235,Tablet,Electronics,1,80000,2024-02-22,Credit Card,Lahore,Delivered,0
+O1237,C236,Phone,Electronics,1,50500,2024-02-23,Cash,Karachi,Delivered,0
+O1238,C237,Laptop,Electronics,1,123000,2024-02-24,Card,Lahore,Delivered,0
+O1239,C238,Headphones,Electronics,2,3900,2024-02-25,Cash,Islamabad,Returned,1
+O1240,C239,Shirt,Fashion,4,2100,2024-02-26,Card,Karachi,Delivered,0
+O1241,C240,Shoes,Fashion,2,5500,2024-02-27,Cash,Lahore,Delivered,0
+O1242,C241,Watch,Fashion,1,14900,2024-02-28,Credit Card,Karachi,Delivered,0
+O1243,C242,Tablet,Electronics,1,82000,2024-02-29,Card,Islamabad,Returned,1
+O1244,C243,Phone,Electronics,1,51000,2024-03-01,Cash,Karachi,Delivered,0
+O1245,C244,Laptop,Electronics,1,120000,2024-03-02,Credit Card,Lahore,Delivered,0
+O1246,C245,Headphones,Electronics,2,3800,2024-03-03,Cash,Karachi,Delivered,0
+O1247,C246,Shirt,Fashion,3,2000,2024-03-04,Card,Lahore,Returned,1
+O1248,C247,Shoes,Fashion,1,5700,2024-03-05,Cash,Islamabad,Delivered,0
+O1249,C248,Watch,Fashion,2,15000,2024-03-06,Card,Karachi,Delivered,0
+O1250,C249,Tablet,Electronics,1,81000,2024-03-07,Credit Card,Lahore,Delivered,0
+O1101,C100,Phone,Electronics,1,50500,2023-10-10,Cash,Karachi,Delivered,0
+O1102,C101,Laptop,Electronics,1,121000,2023-10-11,Card,Lahore,Delivered,0
+O1103,C102,Headphones,Electronics,2,3700,2023-10-12,Cash,Islamabad,Returned,1
+O1104,C103,Shirt,Fashion,3,2100,2023-10-13,Card,Karachi,Delivered,0
+O1105,C104,Shoes,Fashion,1,5800,2023-10-14,Cash,Lahore,Delivered,0
+O1106,C105,Watch,Fashion,2,15000,2023-10-15,Credit Card,Karachi,Delivered,0
+O1107,C106,Tablet,Electronics,1,82000,2023-10-16,Card,Islamabad,Returned,1
+O1108,C107,Phone,Electronics,1,51000,2023-10-17,Cash,Karachi,Delivered,0
+O1109,C108,Shirt,Fashion,4,2000,2023-10-18,Card,Lahore,Delivered,0
+O1110,C109,Shoes,Fashion,2,5500,2023-10-19,Cash,Karachi,Delivered,0
+O1111,C110,Laptop,Electronics,1,119000,2023-10-20,Credit Card,Lahore,Delivered,0
+O1112,C111,Headphones,Electronics,2,,2023-10-21,Cash,Karachi,Returned,1
+O1113,C112,Shirt,Fashion,3,2050,2023-10-22,Card,Islamabad,Delivered,0
+O1114,C113,Shoes,Fashion,1,5700,2023-10-23,Cash,,Delivered,0
+O1115,C114,Watch,Fashion,2,15200,2023-10-24,Card,Karachi,Delivered,
+O1116,C115,Tablet,Electronics,1,80000,2023-10-25,Credit Card,Lahore,Delivered,0
+O1117,C116,Phone,Electronics,1,50000,2023-10-26,Cash,Karachi,Delivered,0
+O1118,C117,Laptop,Electronics,,123000,2023-10-27,Card,Islamabad,Returned,1
+O1119,C118,Headphones,Electronics,2,3900,2023-10-28,Cash,Lahore,Delivered,0
+O1120,C119,Shirt,Fashion,4,2100,2023-10-29,Card,Karachi,Delivered,0
+O1121,C120,Shoes,Fashion,2,5600,2023-10-30,Cash,Lahore,Delivered,0
+O1122,C121,Watch,Fashion,1,14800,2023-10-31,Credit Card,Karachi,Delivered,0
+O1123,C122,Tablet,Electronics,1,83000,2023-11-01,Card,Islamabad,Returned,1
+O1124,C123,Phone,Electronics,1,51500,2023-11-02,Cash,Karachi,Delivered,0
+O1125,C124,Laptop,Electronics,1,122000,2023-11-03,Credit Card,Lahore,Delivered,0
+O1126,C125,Headphones,Electronics,2,3800,2023-11-04,Cash,Karachi,Delivered,0
+O1127,C126,Shirt,Fashion,3,2000,2023-11-05,Card,Lahore,Returned,1
+O1128,C127,Shoes,Fashion,1,5900,2023-11-06,Cash,Islamabad,Delivered,0
+O1129,C128,Watch,Fashion,2,15000,2023-11-07,Card,Karachi,Delivered,0
+O1130,C129,Tablet,Electronics,1,81000,2023-11-08,Credit Card,Lahore,Delivered,0
+O1131,C130,Phone,Electronics,1,50000,2023-11-09,Cash,Karachi,Delivered,0
+O1132,C131,Laptop,Electronics,1,121000,2023-11-10,Card,Lahore,Delivered,0
+O1133,C132,Headphones,Electronics,2,3600,2023-11-11,Cash,Islamabad,Returned,1
+O1134,C133,Shirt,Fashion,3,2100,2023-11-12,Card,Karachi,Delivered,0
+O1135,C134,Shoes,Fashion,1,5800,2023-11-13,Cash,Lahore,Delivered,0
+O1136,C135,Watch,Fashion,2,14800,2023-11-14,Credit Card,Karachi,Delivered,0
+O1137,C136,Tablet,Electronics,1,82000,2023-11-15,Card,Islamabad,Returned,1
+O1138,C137,Phone,Electronics,1,51000,2023-11-16,Cash,Karachi,Delivered,0
+O1139,C138,Shirt,Fashion,4,1950,2023-11-17,Card,Lahore,Delivered,0
+O1140,C139,Shoes,Fashion,2,5400,2023-11-18,Cash,Karachi,Delivered,0
+O1141,C140,Laptop,Electronics,1,119000,2023-11-19,Credit Card,Lahore,Delivered,0
+O1142,C141,Headphones,Electronics,2,3700,2023-11-20,Cash,Karachi,Delivered,0
+O1143,C142,Shirt,Fashion,3,2050,2023-11-21,Card,Lahore,Returned,1
+O1144,C143,Shoes,Fashion,1,5800,2023-11-22,Cash,Islamabad,Delivered,0
+O1145,C144,Watch,Fashion,2,15200,2023-11-23,Card,Karachi,Delivered,0
+O1146,C145,Tablet,Electronics,1,80000,2023-11-24,Credit Card,Lahore,Delivered,0
+O1147,C146,Phone,Electronics,1,50500,2023-11-25,Cash,Karachi,Delivered,0
+O1148,C147,Laptop,Electronics,1,123000,2023-11-26,Card,Lahore,Delivered,0
+O1149,C148,Headphones,Electronics,2,3900,2023-11-27,Cash,Islamabad,Returned,1
+O1150,C149,Shirt,Fashion,4,2100,2023-11-28,Card,Karachi,Delivered,0
+O1151,C150,Shoes,Fashion,2,5500,2023-11-29,Cash,Lahore,Delivered,0
+O1152,C151,Watch,Fashion,1,14900,2023-11-30,Credit Card,Karachi,Delivered,0
+O1153,C152,Tablet,Electronics,1,82000,2023-12-01,Card,Islamabad,Returned,1
+O1154,C153,Phone,Electronics,1,51000,2023-12-02,Cash,Karachi,Delivered,0
+O1155,C154,Laptop,Electronics,1,120000,2023-12-03,Credit Card,Lahore,Delivered,0
+O1156,C155,Headphones,Electronics,2,3800,2023-12-04,Cash,Karachi,Delivered,0
+O1157,C156,Shirt,Fashion,3,2000,2023-12-05,Card,Lahore,Returned,1
+O1158,C157,Shoes,Fashion,1,5700,2023-12-06,Cash,Islamabad,Delivered,0
+O1159,C158,Watch,Fashion,2,15000,2023-12-07,Card,Karachi,Delivered,0
+O1160,C159,Tablet,Electronics,1,81000,2023-12-08,Credit Card,Lahore,Delivered,0
+O1161,C160,Phone,Electronics,1,50000,2023-12-09,Cash,Karachi,Delivered,0
+O1162,C161,Laptop,Electronics,1,122000,2023-12-10,Card,Lahore,Delivered,0
+O1163,C162,Headphones,Electronics,2,3600,2023-12-11,Cash,Islamabad,Returned,1
+O1164,C163,Shirt,Fashion,3,2100,2023-12-12,Card,Karachi,Delivered,0
+O1165,C164,Shoes,Fashion,1,5900,2023-12-13,Cash,Lahore,Delivered,0
+O1166,C165,Watch,Fashion,2,14800,2023-12-14,Credit Card,Karachi,Delivered,0
+O1167,C166,Tablet,Electronics,1,83000,2023-12-15,Card,Islamabad,Returned,1
+O1168,C167,Phone,Electronics,1,51500,2023-12-16,Cash,Karachi,Delivered,0
+O1169,C168,Shirt,Fashion,4,1950,2023-12-17,Card,Lahore,Delivered,0
+O1170,C169,Shoes,Fashion,2,5400,2023-12-18,Cash,Karachi,Delivered,0
+O1251,C250,Phone,Electronics,1,50000,2024-03-08,Cash,Karachi,Delivered,0
+O1252,C251,Laptop,Electronics,1,122000,2024-03-09,Card,Lahore,Delivered,0
+O1253,C252,Headphones,Electronics,2,3600,2024-03-10,Cash,Islamabad,Returned,1
+O1254,C253,Shirt,Fashion,3,2100,2024-03-11,Card,Karachi,Delivered,0
+O1255,C254,Shoes,Fashion,1,5900,2024-03-12,Cash,Lahore,Delivered,0
+O1256,C255,Watch,Fashion,2,14800,2024-03-13,Credit Card,Karachi,Delivered,0
+O1257,C256,Tablet,Electronics,1,83000,2024-03-14,Card,Islamabad,Returned,1
+O1258,C257,Phone,Electronics,1,51500,2024-03-15,Cash,Karachi,Delivered,0
+O1259,C258,Shirt,Fashion,4,1950,2024-03-16,Card,Lahore,Delivered,0
+O1260,C259,Shoes,Fashion,2,5400,2024-03-17,Cash,Karachi,Delivered,0
+O1261,C260,Laptop,Electronics,1,119000,2024-03-18,Credit Card,Lahore,Delivered,0
+O1262,C261,Headphones,Electronics,2,3700,2024-03-19,Cash,Karachi,Delivered,0
+O1263,C262,Shirt,Fashion,3,2050,2024-03-20,Card,Lahore,Returned,1
+O1264,C263,Shoes,Fashion,1,5800,2024-03-21,Cash,Islamabad,Delivered,0
+O1265,C264,Watch,Fashion,2,15200,2024-03-22,Card,Karachi,Delivered,0
+O1266,C265,Tablet,Electronics,1,80000,2024-03-23,Credit Card,Lahore,Delivered,0
+O1267,C266,Phone,Electronics,1,50500,2024-03-24,Cash,Karachi,Delivered,0
+O1268,C267,Laptop,Electronics,1,123000,2024-03-25,Card,Lahore,Delivered,0
+O1269,C268,Headphones,Electronics,2,3900,2024-03-26,Cash,Islamabad,Returned,1
+O1270,C269,Shirt,Fashion,4,2100,2024-03-27,Card,Karachi,Delivered,0
+O1271,C270,Shoes,Fashion,2,5500,2024-03-28,Cash,Lahore,Delivered,0
+O1272,C271,Watch,Fashion,1,14900,2024-03-29,Credit Card,Karachi,Delivered,0
+O1273,C272,Tablet,Electronics,1,82000,2024-03-30,Card,Islamabad,Returned,1
+O1274,C273,Phone,Electronics,1,51000,2024-03-31,Cash,Karachi,Delivered,0
+O1275,C274,Laptop,Electronics,1,120000,2024-04-01,Credit Card,Lahore,Delivered,0
+O1276,C275,Headphones,Electronics,2,3800,2024-04-02,Cash,Karachi,Delivered,0
+O1277,C276,Shirt,Fashion,3,2000,2024-04-03,Card,Lahore,Returned,1
+O1278,C277,Shoes,Fashion,1,5700,2024-04-04,Cash,Islamabad,Delivered,0
+O1279,C278,Watch,Fashion,2,15000,2024-04-05,Card,Karachi,Delivered,0
+O1280,C279,Tablet,Electronics,1,81000,2024-04-06,Credit Card,Lahore,Delivered,0
+O1281,C280,Phone,Electronics,1,50000,2024-04-07,Cash,Karachi,Delivered,0
+O1282,C281,Laptop,Electronics,1,122000,2024-04-08,Card,Lahore,Delivered,0
+O1283,C282,Headphones,Electronics,2,3600,2024-04-09,Cash,Islamabad,Returned,1
+O1284,C283,Shirt,Fashion,3,2100,2024-04-10,Card,Karachi,Delivered,0
+O1285,C284,Shoes,Fashion,1,5900,2024-04-11,Cash,Lahore,Delivered,0
+O1286,C285,Watch,Fashion,2,14800,2024-04-12,Credit Card,Karachi,Delivered,0
+O1287,C286,Tablet,Electronics,1,83000,2024-04-13,Card,Islamabad,Returned,1
+O1288,C287,Phone,Electronics,1,51500,2024-04-14,Cash,Karachi,Delivered,0
+O1289,C288,Shirt,Fashion,4,1950,2024-04-15,Card,Lahore,Delivered,0
+O1290,C289,Shoes,Fashion,2,5400,2024-04-16,Cash,Karachi,Delivered,0
+O1291,C290,Laptop,Electronics,1,119000,2024-04-17,Credit Card,Lahore,Delivered,0
+O1292,C291,Headphones,Electronics,2,3700,2024-04-18,Cash,Karachi,Delivered,0
+O1293,C292,Shirt,Fashion,3,2050,2024-04-19,Card,Lahore,Returned,1
+O1294,C293,Shoes,Fashion,1,5800,2024-04-20,Cash,Islamabad,Delivered,0
+O1295,C294,Watch,Fashion,2,15200,2024-04-21,Card,Karachi,Delivered,0
+O1296,C295,Tablet,Electronics,1,80000,2024-04-22,Credit Card,Lahore,Delivered,0
+O1297,C296,Phone,Electronics,1,50500,2024-04-23,Cash,Karachi,Delivered,0
+O1298,C297,Laptop,Electronics,1,123000,2024-04-24,Card,Lahore,Delivered,0
+O1299,C298,Headphones,Electronics,2,3900,2024-04-25,Cash,Islamabad,Returned,1
+O1300,C299,Shirt,Fashion,4,2100,2024-04-26,Card,Karachi,Delivered,0
+O1441,C440,Laptop,Electronics,1,119000,2024-09-14,Credit Card,Lahore,Delivered,0
+O1442,C441,Headphones,Electronics,2,3700,2024-09-15,Cash,Karachi,Delivered,0
+O1443,C442,Shirt,Fashion,3,2050,2024-09-16,Card,Lahore,Returned,1
+O1444,C443,Shoes,Fashion,1,5800,2024-09-17,Cash,Islamabad,Delivered,0
+O1445,C444,Watch,Fashion,2,15200,2024-09-18,Card,Karachi,Delivered,0
+O1446,C445,Tablet,Electronics,1,80000,2024-09-19,Credit Card,Lahore,Delivered,0
+O1447,C446,Phone,Electronics,1,50500,2024-09-20,Cash,Karachi,Delivered,0
+O1448,C447,Laptop,Electronics,1,123000,2024-09-21,Card,Lahore,Delivered,0
+O1449,C448,Headphones,Electronics,2,3900,2024-09-22,Cash,Islamabad,Returned,1
+O1450,C449,Shirt,Fashion,4,2100,2024-09-23,Card,Karachi,Delivered,0
+O1651,C650,Phone,Electronics,1,50000,2025-03-13,Cash,Karachi,Delivered,0
+O1652,C651,Laptop,Electronics,1,122000,2025-03-14,Card,Lahore,Delivered,0
+O1653,C652,Headphones,Electronics,2,3600,2025-03-15,Cash,Islamabad,Returned,1
+O1654,C653,Shirt,Fashion,3,2100,2025-03-16,Card,Karachi,Delivered,0
+O1655,C654,Shoes,Fashion,1,5900,2025-03-17,Cash,Lahore,Delivered,0
+O1656,C655,Watch,Fashion,2,14800,2025-03-18,Credit Card,Karachi,Delivered,0
+O1657,C656,Tablet,Electronics,1,83000,2025-03-19,Card,Islamabad,Returned,1
+O1658,C657,Phone,Electronics,1,51500,2025-03-20,Cash,Karachi,Delivered,0
+O1659,C658,Shirt,Fashion,4,1950,2025-03-21,Card,Lahore,Delivered,0
+O1660,C659,Shoes,Fashion,2,5400,2025-03-22,Cash,Karachi,Delivered,0
+O1661,C660,Laptop,Electronics,1,119000,2025-03-23,Credit Card,Lahore,Delivered,0
+O1662,C661,Headphones,Electronics,2,3700,2025-03-24,Cash,Karachi,Delivered,0
+O1663,C662,Shirt,Fashion,3,2050,2025-03-25,Card,Lahore,Returned,1
+O1664,C663,Shoes,Fashion,1,5800,2025-03-26,Cash,Islamabad,Delivered,0
+O1665,C664,Watch,Fashion,2,15200,2025-03-27,Card,Karachi,Delivered,0
+O1666,C665,Tablet,Electronics,1,80000,2025-03-28,Credit Card,Lahore,Delivered,0
+O1667,C666,Phone,Electronics,1,50500,2025-03-29,Cash,Karachi,Delivered,0
+O1668,C667,Laptop,Electronics,1,123000,2025-03-30,Card,Lahore,Delivered,0
+O1669,C668,Headphones,Electronics,2,3900,2025-03-31,Cash,Islamabad,Returned,1
+O1670,C669,Shirt,Fashion,4,2100,2025-04-01,Card,Karachi,Delivered,0
+O1671,C670,Shoes,Fashion,2,5500,2025-04-02,Cash,Lahore,Delivered,0
+O1672,C671,Watch,Fashion,1,14900,2025-04-03,Credit Card,Karachi,Delivered,0
+O1673,C672,Tablet,Electronics,1,82000,2025-04-04,Card,Islamabad,Returned,1
+O1674,C673,Phone,Electronics,1,51000,2025-04-05,Cash,Karachi,Delivered,0
+O1675,C674,Laptop,Electronics,1,120000,2025-04-06,Credit Card,Lahore,Delivered,0
+O1676,C675,Headphones,Electronics,2,3800,2025-04-07,Cash,Karachi,Delivered,0
+O1677,C676,Shirt,Fashion,3,2000,2025-04-08,Card,Lahore,Returned,1
+O1678,C677,Shoes,Fashion,1,5700,2025-04-09,Cash,Islamabad,Delivered,0
+O1679,C678,Watch,Fashion,2,15000,2025-04-10,Card,Karachi,Delivered,0
+O1680,C679,Tablet,Electronics,1,81000,2025-04-11,Credit Card,Lahore,Delivered,0
+O1681,C680,Phone,Electronics,1,50000,2025-04-12,Cash,Karachi,Delivered,0
+O1682,C681,Laptop,Electronics,1,122000,2025-04-13,Card,Lahore,Delivered,0
+O1683,C682,Headphones,Electronics,2,3600,2025-04-14,Cash,Islamabad,Returned,1
+O1684,C683,Shirt,Fashion,3,2100,2025-04-15,Card,Karachi,Delivered,0
+O1685,C684,Shoes,Fashion,1,5900,2025-04-16,Cash,Lahore,Delivered,0
+O1686,C685,Watch,Fashion,2,14800,2025-04-17,Credit Card,Karachi,Delivered,0
+O1687,C686,Tablet,Electronics,1,83000,2025-04-18,Card,Islamabad,Returned,1
+O1688,C687,Phone,Electronics,1,51500,2025-04-19,Cash,Karachi,Delivered,0
+O1689,C688,Shirt,Fashion,4,1950,2025-04-20,Card,Lahore,Delivered,0
+O1690,C689,Shoes,Fashion,2,5400,2025-04-21,Cash,Karachi,Delivered,0
+O1691,C690,Laptop,Electronics,1,119000,2025-04-22,Credit Card,Lahore,Delivered,0
+O1692,C691,Headphones,Electronics,2,3700,2025-04-23,Cash,Karachi,Delivered,0
+O1693,C692,Shirt,Fashion,3,2050,2025-04-24,Card,Lahore,Returned,1
+O1694,C693,Shoes,Fashion,1,5800,2025-04-25,Cash,Islamabad,Delivered,0
+O1695,C694,Watch,Fashion,2,15200,2025-04-26,Card,Karachi,Delivered,0
+O1696,C695,Tablet,Electronics,1,80000,2025-04-27,Credit Card,Lahore,Delivered,0
+O1697,C696,Phone,Electronics,1,50500,2025-04-28,Cash,Karachi,Delivered,0
+O1698,C697,Laptop,Electronics,1,123000,2025-04-29,Card,Lahore,Delivered,0
+O1699,C698,Headphones,Electronics,2,3900,2025-04-30,Cash,Islamabad,Returned,1
+O1700,C699,Shirt,Fashion,4,2100,2025-05-01,Card,Karachi,Delivered,0
+O1841,C840,Laptop,Electronics,1,119000,2025-09-20,Credit Card,Lahore,Delivered,0
+O1842,C841,Headphones,Electronics,2,3700,2025-09-21,Cash,Karachi,Delivered,0
+O1843,C842,Shirt,Fashion,3,2050,2025-09-22,Card,Lahore,Returned,1
+O1844,C843,Shoes,Fashion,1,5800,2025-09-23,Cash,Islamabad,Delivered,0
+O1845,C844,Watch,Fashion,2,15200,2025-09-24,Card,Karachi,Delivered,0
+O1846,C845,Tablet,Electronics,1,80000,2025-09-25,Credit Card,Lahore,Delivered,0
+O1847,C846,Phone,Electronics,1,50500,2025-09-26,Cash,Karachi,Delivered,0
+O1848,C847,Laptop,Electronics,1,123000,2025-09-27,Card,Lahore,Delivered,0
+O1849,C848,Headphones,Electronics,2,3900,2025-09-28,Cash,Islamabad,Returned,1
+O1850,C849,Shirt,Fashion,4,2100,2025-09-29,Card,Karachi,Delivered,0
+O1851,C850,Shoes,Fashion,2,5600,2025-09-30,Cash,Lahore,Delivered,0
+O1852,C851,Watch,Fashion,1,15100,2025-10-01,Card,Karachi,Delivered,0
+O1853,C852,Tablet,Electronics,1,80500,2025-10-02,Credit Card,Islamabad,Returned,1
+O1854,C853,Phone,Electronics,1,51200,2025-10-03,Cash,Karachi,Delivered,0
+O1855,C854,Laptop,Electronics,1,120500,2025-10-04,Card,Lahore,Delivered,0
+O1856,C855,Headphones,Electronics,2,3750,2025-10-05,Cash,Karachi,Delivered,0
+O1857,C856,Shirt,Fashion,3,2150,2025-10-06,Card,Lahore,Returned,1
+O1858,C857,Shoes,Fashion,1,5900,2025-10-07,Cash,Islamabad,Delivered,0
+O1859,C858,Watch,Fashion,2,15300,2025-10-08,Card,Karachi,Delivered,0
+O1860,C859,Tablet,Electronics,1,81500,2025-10-09,Credit Card,Lahore,Delivered,0
+O1861,C860,Phone,Electronics,1,50500,2025-10-10,Cash,Karachi,Delivered,0
+O1862,C861,Laptop,Electronics,1,121000,2025-10-11,Card,Lahore,Delivered,0
+O1863,C862,Headphones,Electronics,2,3800,2025-10-12,Cash,Islamabad,Returned,1
+O1864,C863,Shirt,Fashion,4,2200,2025-10-13,Card,Karachi,Delivered,0
+O1865,C864,Shoes,Fashion,1,5800,2025-10-14,Cash,Lahore,Delivered,0
+O1866,C865,Watch,Fashion,2,15000,2025-10-15,Credit Card,Karachi,Delivered,0
+O1867,C866,Tablet,Electronics,1,82000,2025-10-16,Card,Islamabad,Returned,1
+O1868,C867,Phone,Electronics,1,51000,2025-10-17,Cash,Karachi,Delivered,0
+O1869,C868,Laptop,Electronics,1,119500,2025-10-18,Card,Lahore,Delivered,0
+O1870,C869,Headphones,Electronics,2,3900,2025-10-19,Cash,Karachi,Delivered,0
+O1871,C870,Shirt,Fashion,3,2100,2025-10-20,Card,Lahore,Returned,1
+O1872,C871,Shoes,Fashion,2,5700,2025-10-21,Cash,Islamabad,Delivered,0
+O1873,C872,Watch,Fashion,1,15200,2025-10-22,Card,Karachi,Delivered,0
+O1874,C873,Tablet,Electronics,1,80000,2025-10-23,Credit Card,Lahore,Delivered,0
+O1875,C874,Phone,Electronics,1,50000,2025-10-24,Cash,Karachi,Delivered,0
+O1876,C875,Laptop,Electronics,1,123000,2025-10-25,Card,Lahore,Delivered,0
+O1877,C876,Headphones,Electronics,2,3700,2025-10-26,Cash,Islamabad,Returned,1
+O1878,C877,Shirt,Fashion,4,2050,2025-10-27,Card,Karachi,Delivered,0
+O1879,C878,Shoes,Fashion,1,5900,2025-10-28,Cash,Lahore,Delivered,0
+O1880,C879,Watch,Fashion,2,15100,2025-10-29,Card,Karachi,Delivered,0
+O1881,C880,Tablet,Electronics,1,81000,2025-10-30,Credit Card,Islamabad,Returned,1
+O1882,C881,Phone,Electronics,1,51500,2025-10-31,Cash,Karachi,Delivered,0
+O1883,C882,Laptop,Electronics,1,120000,2025-11-01,Card,Lahore,Delivered,0
+O1884,C883,Headphones,Electronics,2,3850,2025-11-02,Cash,Karachi,Delivered,0
+O1885,C884,Shirt,Fashion,3,2150,2025-11-03,Card,Lahore,Returned,1
+O1886,C885,Shoes,Fashion,1,5800,2025-11-04,Cash,Islamabad,Delivered,0
+O1887,C886,Watch,Fashion,2,15350,2025-11-05,Card,Karachi,Delivered,0
+O1888,C887,Tablet,Electronics,1,82500,2025-11-06,Credit Card,Lahore,Delivered,0
+O1889,C888,Phone,Electronics,1,50800,2025-11-07,Cash,Karachi,Delivered,0
+O1890,C889,Laptop,Electronics,1,121500,2025-11-08,Card,Lahore,Delivered,0
+O1891,C890,Headphones,Electronics,2,3950,2025-11-09,Cash,Islamabad,Returned,1
+O1892,C891,Shirt,Fashion,4,2100,2025-11-10,Card,Karachi,Delivered,0
+O1893,C892,Shoes,Fashion,2,5600,2025-11-11,Cash,Lahore,Delivered,0
+O1894,C893,Watch,Fashion,1,15000,2025-11-12,Card,Karachi,Delivered,0
+O1895,C894,Tablet,Electronics,1,80000,2025-11-13,Credit Card,Islamabad,Returned,1
+O1896,C895,Phone,Electronics,1,50000,2025-11-14,Cash,Karachi,Delivered,0
+O1897,C896,Laptop,Electronics,1,122500,2025-11-15,Card,Lahore,Delivered,0
+O1898,C897,Headphones,Electronics,2,3700,2025-11-16,Cash,Karachi,Delivered,0
+O1899,C898,Shirt,Fashion,3,2200,2025-11-17,Card,Lahore,Returned,1
+O1900,C899,Shoes,Fashion,1,5900,2025-11-18,Cash,Islamabad,Delivered,0
+O1901,C900,Watch,Fashion,2,15200,2025-11-19,Card,Karachi,Delivered,0
+O1902,C901,Tablet,Electronics,1,81500,2025-11-20,Credit Card,Lahore,Delivered,0
+O1903,C902,Phone,Electronics,1,51000,2025-11-21,Cash,Karachi,Delivered,0
+O1904,C903,Laptop,Electronics,1,120000,2025-11-22,Card,Lahore,Delivered,0
+O1905,C904,Headphones,Electronics,2,3850,2025-11-23,Cash,Islamabad,Returned,1
+O1906,C905,Shirt,Fashion,4,2100,2025-11-24,Card,Karachi,Delivered,0
+O1907,C906,Shoes,Fashion,1,5800,2025-11-25,Cash,Lahore,Delivered,0
+O1908,C907,Watch,Fashion,2,15150,2025-11-26,Card,Karachi,Delivered,0
+O1909,C908,Tablet,Electronics,1,82000,2025-11-27,Credit Card,Islamabad,Returned,1
+O1910,C909,Phone,Electronics,1,50500,2025-11-28,Cash,Karachi,Delivered,0
+O1911,C910,Laptop,Electronics,1,121000,2025-11-29,Card,Lahore,Delivered,0
+O1912,C911,Headphones,Electronics,2,3900,2025-11-30,Cash,Karachi,Delivered,0
+O1913,C912,Shirt,Fashion,3,2150,2025-12-01,Card,Lahore,Returned,1
+O1914,C913,Shoes,Fashion,1,5900,2025-12-02,Cash,Islamabad,Delivered,0
+O1915,C914,Watch,Fashion,2,15300,2025-12-03,Card,Karachi,Delivered,0
+O1916,C915,Tablet,Electronics,1,80500,2025-12-04,Credit Card,Lahore,Delivered,0
+O1917,C916,Phone,Electronics,1,51200,2025-12-05,Cash,Karachi,Delivered,0
+O1918,C917,Laptop,Electronics,1,119000,2025-12-06,Card,Lahore,Delivered,0
+O1919,C918,Headphones,Electronics,2,3750,2025-12-07,Cash,Karachi,Delivered,0
+O1920,C919,Shirt,Fashion,4,2200,2025-12-08,Card,Lahore,Returned,1
+O1921,C920,Shoes,Fashion,1,5800,2025-12-09,Cash,Islamabad,Delivered,0
+O1922,C921,Watch,Fashion,2,15000,2025-12-10,Card,Karachi,Delivered,0
+O1923,C922,Tablet,Electronics,1,82500,2025-12-11,Credit Card,Lahore,Delivered,0
+O1924,C923,Phone,Electronics,1,50800,2025-12-12,Cash,Karachi,Delivered,0
+O1925,C924,Laptop,Electronics,1,121500,2025-12-13,Card,Lahore,Delivered,0
+O1926,C925,Headphones,Electronics,2,3950,2025-12-14,Cash,Karachi,Delivered,0
+O1927,C926,Shirt,Fashion,3,2100,2025-12-15,Card,Lahore,Returned,1
+O1928,C927,Shoes,Fashion,2,5600,2025-12-16,Cash,Islamabad,Delivered,0
+O1929,C928,Watch,Fashion,1,15200,2025-12-17,Card,Karachi,Delivered,0
+O1930,C929,Tablet,Electronics,1,80000,2025-12-18,Credit Card,Lahore,Delivered,0
+O1931,C930,Phone,Electronics,1,50000,2025-12-19,Cash,Karachi,Delivered,0
+O1932,C931,Laptop,Electronics,1,122000,2025-12-20,Card,Lahore,Delivered,0
+O1933,C932,Headphones,Electronics,2,3700,2025-12-21,Cash,Islamabad,Returned,1
+O1934,C933,Shirt,Fashion,4,2050,2025-12-22,Card,Karachi,Delivered,0
+O1935,C934,Shoes,Fashion,1,5900,2025-12-23,Cash,Lahore,Delivered,0
+O1936,C935,Watch,Fashion,2,15100,2025-12-24,Card,Karachi,Delivered,0
+O1937,C936,Tablet,Electronics,1,81000,2025-12-25,Credit Card,Islamabad,Returned,1
+O1938,C937,Phone,Electronics,1,51000,2025-12-26,Cash,Karachi,Delivered,0
+O1939,C938,Laptop,Electronics,1,120500,2025-12-27,Card,Lahore,Delivered,0
+O1940,C939,Headphones,Electronics,2,3850,2025-12-28,Cash,Karachi,Delivered,0
+O1941,C940,Shirt,Fashion,3,2150,2025-12-29,Card,Lahore,Returned,1
+O1942,C941,Shoes,Fashion,1,5800,2025-12-30,Cash,Islamabad,Delivered,0
+O1943,C942,Watch,Fashion,2,15350,2025-12-31,Card,Karachi,Delivered,0
+O1944,C943,Tablet,Electronics,1,82000,2026-01-01,Credit Card,Lahore,Delivered,0
+O1945,C944,Phone,Electronics,1,50500,2026-01-02,Cash,Karachi,Delivered,0
+O1946,C945,Laptop,Electronics,1,119500,2026-01-03,Card,Lahore,Delivered,0
+O1947,C946,Headphones,Electronics,2,3900,2026-01-04,Cash,Karachi,Delivered,0
+O1948,C947,Shirt,Fashion,4,2100,2026-01-05,Card,Lahore,Returned,1
+O1949,C948,Shoes,Fashion,1,5900,2026-01-06,Cash,Islamabad,Delivered,0
+O1950,C949,Watch,Fashion,2,15200,2026-01-07,Card,Karachi,Delivered,0
+O1951,C950,Tablet,Electronics,1,80000,2026-01-08,Credit Card,Lahore,Delivered,0
+O1952,C951,Phone,Electronics,1,50000,2026-01-09,Cash,Karachi,Delivered,0
+O1953,C952,Laptop,Electronics,1,121000,2026-01-10,Card,Lahore,Delivered,0
+O1954,C953,Headphones,Electronics,2,3750,2026-01-11,Cash,Karachi,Delivered,0
+O1955,C954,Shirt,Fashion,3,2200,2026-01-12,Card,Lahore,Returned,1
+O1956,C955,Shoes,Fashion,2,5600,2026-01-13,Cash,Islamabad,Delivered,0
+O1957,C956,Watch,Fashion,1,15000,2026-01-14,Card,Karachi,Delivered,0
+O1958,C957,Tablet,Electronics,1,81500,2026-01-15,Credit Card,Lahore,Delivered,0
+O1959,C958,Phone,Electronics,1,50800,2026-01-16,Cash,Karachi,Delivered,0
+O1960,C959,Laptop,Electronics,1,120000,2026-01-17,Card,Lahore,Delivered,0
+O1961,C960,Headphones,Electronics,2,3800,2026-01-18,Cash,Karachi,Delivered,0
+O1962,C961,Shirt,Fashion,4,2100,2026-01-19,Card,Lahore,Returned,1
+O1963,C962,Shoes,Fashion,1,5800,2026-01-20,Cash,Islamabad,Delivered,0
+O1964,C963,Watch,Fashion,2,15100,2026-01-21,Card,Karachi,Delivered,0
+O1965,C964,Tablet,Electronics,1,82500,2026-01-22,Credit Card,Lahore,Delivered,0
+O1966,C965,Phone,Electronics,1,51000,2026-01-23,Cash,Karachi,Delivered,0
+O1967,C966,Laptop,Electronics,1,119000,2026-01-24,Card,Lahore,Delivered,0
+O1968,C967,Headphones,Electronics,2,3950,2026-01-25,Cash,Karachi,Delivered,0
+O1969,C968,Shirt,Fashion,3,2150,2026-01-26,Card,Lahore,Returned,1
+O1970,C969,Shoes,Fashion,1,5900,2026-01-27,Cash,Islamabad,Delivered,0
+O1971,C970,Watch,Fashion,2,15200,2026-01-28,Card,Karachi,Delivered,0
+O1972,C971,Tablet,Electronics,1,80000,2026-01-29,Credit Card,Lahore,Delivered,0
+O1973,C972,Phone,Electronics,1,50500,2026-01-30,Cash,Karachi,Delivered,0
+O1974,C973,Laptop,Electronics,1,121500,2026-01-31,Card,Lahore,Delivered,0
+O1975,C974,Headphones,Electronics,2,3900,2026-02-01,Cash,Karachi,Delivered,0
+O1976,C975,Shirt,Fashion,4,2100,2026-02-02,Card,Lahore,Returned,1
+O1977,C976,Shoes,Fashion,1,5800,2026-02-03,Cash,Islamabad,Delivered,0
+O1978,C977,Watch,Fashion,2,15350,2026-02-04,Card,Karachi,Delivered,0
+O1979,C978,Tablet,Electronics,1,82000,2026-02-05,Credit Card,Lahore,Delivered,0
+O1980,C979,Phone,Electronics,1,50000,2026-02-06,Cash,Karachi,Delivered,0
+O1981,C980,Laptop,Electronics,1,122000,2026-02-07,Card,Lahore,Delivered,0
+O1982,C981,Headphones,Electronics,2,3750,2026-02-08,Cash,Karachi,Delivered,0
+O1983,C982,Shirt,Fashion,3,2200,2026-02-09,Card,Lahore,Returned,1
+O1984,C983,Shoes,Fashion,2,5600,2026-02-10,Cash,Islamabad,Delivered,0
+O1985,C984,Watch,Fashion,1,15000,2026-02-11,Card,Karachi,Delivered,0
+O1986,C985,Tablet,Electronics,1,81500,2026-02-12,Credit Card,Lahore,Delivered,0
+O1987,C986,Phone,Electronics,1,50800,2026-02-13,Cash,Karachi,Delivered,0
+O1988,C987,Laptop,Electronics,1,120500,2026-02-14,Card,Lahore,Delivered,0
+O1989,C988,Headphones,Electronics,2,3800,2026-02-15,Cash,Karachi,Delivered,0
+O1990,C989,Shirt,Fashion,4,2100,2026-02-16,Card,Lahore,Returned,1
+O1991,C990,Shoes,Fashion,1,5800,2026-02-17,Cash,Islamabad,Delivered,0
+O1992,C991,Watch,Fashion,2,15100,2026-02-18,Card,Karachi,Delivered,0
+O1993,C992,Tablet,Electronics,1,82500,2026-02-19,Credit Card,Lahore,Delivered,0
+O1994,C993,Phone,Electronics,1,51000,2026-02-20,Cash,Karachi,Delivered,0
+O1995,C994,Laptop,Electronics,1,119500,2026-02-21,Card,Lahore,Delivered,0
+O1996,C995,Headphones,Electronics,2,3950,2026-02-22,Cash,Karachi,Delivered,0
+O1997,C996,Shirt,Fashion,3,2150,2026-02-23,Card,Lahore,Returned,1
+O1998,C997,Shoes,Fashion,1,5900,2026-02-24,Cash,Islamabad,Delivered,0
+O1999,C998,Watch,Fashion,2,15200,2026-02-25,Card,Karachi,Delivered,0
+O2000,C999,Tablet,Electronics,1,80000,2026-02-26,Credit Card,Lahore,Delivered,0
+O2001,C1000,Phone,Electronics,1,50500,2026-02-27,Cash,Karachi,Delivered,0
+O2002,C1001,Laptop,Electronics,1,121000,2026-02-28,Card,Lahore,Delivered,0
+O2003,C1002,Headphones,Electronics,2,3900,2026-03-01,Cash,Islamabad,Returned,1
+O2004,C1003,Shirt,Fashion,4,2100,2026-03-02,Card,Karachi,Delivered,0
+O2005,C1004,Shoes,Fashion,1,5800,2026-03-03,Cash,Lahore,Delivered,0
+O2006,C1005,Watch,Fashion,2,15200,2026-03-04,Card,Karachi,Delivered,0
+O2007,C1006,Tablet,Electronics,1,82000,2026-03-05,Credit Card,Lahore,Delivered,0
+O2008,C1007,Phone,Electronics,1,51000,2026-03-06,Cash,Islamabad,Delivered,0
+O2009,C1008,Laptop,Electronics,1,119500,2026-03-07,Card,Karachi,Delivered,0
+O2010,C1009,Headphones,Electronics,2,3800,2026-03-08,Cash,Lahore,Returned,1
+O2011,C1010,Shirt,Fashion,3,2150,2026-03-09,Card,Karachi,Delivered,0
+O2012,C1011,Shoes,Fashion,2,5600,2026-03-10,Cash,Lahore,Delivered,0
+O2013,C1012,Watch,Fashion,1,15000,2026-03-11,Card,Islamabad,Delivered,0
+O2014,C1013,Tablet,Electronics,1,80000,2026-03-12,Credit Card,Karachi,Delivered,0
+O2015,C1014,Phone,Electronics,1,50000,2026-03-13,Cash,Lahore,Delivered,0
+O2016,C1015,Laptop,Electronics,1,122000,2026-03-14,Card,Karachi,Delivered,0
+O2017,C1016,Headphones,Electronics,2,3950,2026-03-15,Cash,Islamabad,Returned,1
+O2018,C1017,Shirt,Fashion,4,2050,2026-03-16,Card,Lahore,Delivered,0
+O2019,C1018,Shoes,Fashion,1,5900,2026-03-17,Cash,Karachi,Delivered,0
+O2020,C1019,Watch,Fashion,2,15300,2026-03-18,Card,Lahore,Delivered,0
+O2021,C1020,Tablet,Electronics,1,81500,2026-03-19,Credit Card,Karachi,Delivered,0
+O2022,C1021,Phone,Electronics,1,50800,2026-03-20,Cash,Lahore,Delivered,0
+O2023,C1022,Laptop,Electronics,1,120500,2026-03-21,Card,Islamabad,Delivered,0
+O2024,C1023,Headphones,Electronics,2,3700,2026-03-22,Cash,Karachi,Returned,1
+O2025,C1024,Shirt,Fashion,3,2200,2026-03-23,Card,Lahore,Delivered,0
+O2026,C1025,Shoes,Fashion,2,5700,2026-03-24,Cash,Karachi,Delivered,0
+O2027,C1026,Watch,Fashion,1,15100,2026-03-25,Card,Islamabad,Delivered,0
+O2028,C1027,Tablet,Electronics,1,82500,2026-03-26,Credit Card,Lahore,Delivered,0
+O2029,C1028,Phone,Electronics,1,51200,2026-03-27,Cash,Karachi,Delivered,0
+O2030,C1029,Laptop,Electronics,1,119000,2026-03-28,Card,Lahore,Delivered,0
+O2031,C1030,Headphones,Electronics,2,3850,2026-03-29,Cash,Islamabad,Returned,1
+O2032,C1031,Shirt,Fashion,4,2100,2026-03-30,Card,Karachi,Delivered,0
+O2033,C1032,Shoes,Fashion,1,5800,2026-03-31,Cash,Lahore,Delivered,0
+O2034,C1033,Watch,Fashion,2,15250,2026-04-01,Card,Karachi,Delivered,0
+O2035,C1034,Tablet,Electronics,1,80000,2026-04-02,Credit Card,Islamabad,Delivered,0
+O2036,C1035,Phone,Electronics,1,50500,2026-04-03,Cash,Lahore,Delivered,0
+O2037,C1036,Laptop,Electronics,1,121500,2026-04-04,Card,Karachi,Delivered,0
+O2038,C1037,Headphones,Electronics,2,3900,2026-04-05,Cash,Lahore,Returned,1
+O2039,C1038,Shirt,Fashion,3,2150,2026-04-06,Card,Islamabad,Delivered,0
+O2040,C1039,Shoes,Fashion,1,5900,2026-04-07,Cash,Karachi,Delivered,0
+O2041,C1040,Watch,Fashion,2,15000,2026-04-08,Card,Lahore,Delivered,0
+O2042,C1041,Tablet,Electronics,1,81500,2026-04-09,Credit Card,Karachi,Delivered,0
+O2043,C1042,Phone,Electronics,1,51000,2026-04-10,Cash,Islamabad,Delivered,0
+O2044,C1043,Laptop,Electronics,1,120000,2026-04-11,Card,Lahore,Delivered,0
+O2045,C1044,Headphones,Electronics,2,3750,2026-04-12,Cash,Karachi,Returned,1
+O2046,C1045,Shirt,Fashion,4,2050,2026-04-13,Card,Lahore,Delivered,0
+O2047,C1046,Shoes,Fashion,1,5800,2026-04-14,Cash,Islamabad,Delivered,0
+O2048,C1047,Watch,Fashion,2,15300,2026-04-15,Card,Karachi,Delivered,0
+O2049,C1048,Tablet,Electronics,1,82000,2026-04-16,Credit Card,Lahore,Delivered,0
+O2050,C1049,Phone,Electronics,1,50000,2026-04-17,Cash,Karachi,Delivered,0
+O2051,C1050,Laptop,Electronics,1,121000,2026-04-18,Card,Islamabad,Delivered,0
+O2052,C1051,Headphones,Electronics,2,3900,2026-04-19,Cash,Karachi,Returned,1
+O2053,C1052,Shirt,Fashion,3,2100,2026-04-20,Card,Lahore,Delivered,0
+O2054,C1053,Shoes,Fashion,1,5800,2026-04-21,Cash,Karachi,Delivered,0
+O2055,C1054,Watch,Fashion,2,15200,2026-04-22,Card,Islamabad,Delivered,0
+O2056,C1055,Tablet,Electronics,1,81500,2026-04-23,Credit Card,Lahore,Delivered,0
+O2057,C1056,Phone,Electronics,1,50800,2026-04-24,Cash,Karachi,Delivered,0
+O2058,C1057,Laptop,Electronics,1,119500,2026-04-25,Card,Lahore,Delivered,0
+O2059,C1058,Headphones,Electronics,2,3800,2026-04-26,Cash,Karachi,Returned,1
+O2060,C1059,Shirt,Fashion,4,2150,2026-04-27,Card,Islamabad,Delivered,0
+O2061,C1060,Shoes,Fashion,2,5600,2026-04-28,Cash,Lahore,Delivered,0
+O2062,C1061,Watch,Fashion,1,15000,2026-04-29,Card,Karachi,Delivered,0
+O2063,C1062,Tablet,Electronics,1,80000,2026-04-30,Credit Card,Lahore,Delivered,0
+O2064,C1063,Phone,Electronics,1,50500,2026-05-01,Cash,Karachi,Delivered,0
+O2065,C1064,Laptop,Electronics,1,122000,2026-05-02,Card,Islamabad,Delivered,0
+O2066,C1065,Headphones,Electronics,2,3950,2026-05-03,Cash,Lahore,Returned,1
+O2067,C1066,Shirt,Fashion,3,2200,2026-05-04,Card,Karachi,Delivered,0
+O2068,C1067,Shoes,Fashion,1,5900,2026-05-05,Cash,Lahore,Delivered,0
+O2069,C1068,Watch,Fashion,2,15300,2026-05-06,Card,Karachi,Delivered,0
+O2070,C1069,Tablet,Electronics,1,82500,2026-05-07,Credit Card,Islamabad,Delivered,0
+O2071,C1070,Phone,Electronics,1,51000,2026-05-08,Cash,Lahore,Delivered,0
+O2072,C1071,Laptop,Electronics,1,120000,2026-05-09,Card,Karachi,Delivered,0
+O2073,C1072,Headphones,Electronics,2,3750,2026-05-10,Cash,Islamabad,Returned,1
+O2074,C1073,Shirt,Fashion,4,2050,2026-05-11,Card,Lahore,Delivered,0
+O2075,C1074,Shoes,Fashion,1,5800,2026-05-12,Cash,Karachi,Delivered,0
+O2076,C1075,Watch,Fashion,2,15100,2026-05-13,Card,Lahore,Delivered,0
+O2077,C1076,Tablet,Electronics,1,81000,2026-05-14,Credit Card,Karachi,Delivered,0
+O2078,C1077,Phone,Electronics,1,50000,2026-05-15,Cash,Islamabad,Delivered,0
+O2079,C1078,Laptop,Electronics,1,121500,2026-05-16,Card,Lahore,Delivered,0
+O2080,C1079,Headphones,Electronics,2,3900,2026-05-17,Cash,Karachi,Returned,1
+O2081,C1080,Shirt,Fashion,3,2150,2026-05-18,Card,Islamabad,Delivered,0
+O2082,C1081,Shoes,Fashion,2,5700,2026-05-19,Cash,Lahore,Delivered,0
+O2083,C1082,Watch,Fashion,1,15200,2026-05-20,Card,Karachi,Delivered,0
+O2084,C1083,Tablet,Electronics,1,82000,2026-05-21,Credit Card,Lahore,Delivered,0
+O2085,C1084,Phone,Electronics,1,50800,2026-05-22,Cash,Karachi,Delivered,0
+O2086,C1085,Laptop,Electronics,1,119000,2026-05-23,Card,Islamabad,Delivered,0
+O2087,C1086,Headphones,Electronics,2,3800,2026-05-24,Cash,Lahore,Returned,1
+O2088,C1087,Shirt,Fashion,4,2100,2026-05-25,Card,Karachi,Delivered,0
+O2089,C1088,Shoes,Fashion,1,5900,2026-05-26,Cash,Lahore,Delivered,0
+O2090,C1089,Watch,Fashion,2,15350,2026-05-27,Card,Islamabad,Delivered,0
+O2091,C1090,Tablet,Electronics,1,80000,2026-05-28,Credit Card,Karachi,Delivered,0
+O2092,C1091,Phone,Electronics,1,50500,2026-05-29,Cash,Lahore,Delivered,0
+O2093,C1092,Laptop,Electronics,1,122500,2026-05-30,Card,Karachi,Delivered,0
+O2094,C1093,Headphones,Electronics,2,3950,2026-05-31,Cash,Islamabad,Returned,1
+O2095,C1094,Shirt,Fashion,3,2200,2026-06-01,Card,Lahore,Delivered,0
+O2096,C1095,Shoes,Fashion,1,5800,2026-06-02,Cash,Karachi,Delivered,0
+O2097,C1096,Watch,Fashion,2,15000,2026-06-03,Card,Lahore,Delivered,0
+O2098,C1097,Tablet,Electronics,1,81500,2026-06-04,Credit Card,Karachi,Delivered,0
+O2099,C1098,Phone,Electronics,1,51000,2026-06-05,Cash,Islamabad,Delivered,0
+O2100,C1099,Laptop,Electronics,1,120000,2026-06-06,Card,Lahore,Delivered,0
+O2101,C1100,Headphones,Electronics,2,3850,2026-06-07,Cash,Karachi,Returned,1
+O2102,C1101,Shirt,Fashion,4,2100,2026-06-08,Card,Lahore,Delivered,0
+O2103,C1102,Shoes,Fashion,1,5800,2026-06-09,Cash,Islamabad,Delivered,0
+O2104,C1103,Watch,Fashion,2,15200,2026-06-10,Card,Karachi,Delivered,0
+O2105,C1104,Tablet,Electronics,1,82000,2026-06-11,Credit Card,Lahore,Delivered,0
+O2106,C1105,Phone,Electronics,1,50800,2026-06-12,Cash,Karachi,Delivered,0
+O2107,C1106,Laptop,Electronics,1,121000,2026-06-13,Card,Lahore,Delivered,0
+O2108,C1107,Headphones,Electronics,2,3900,2026-06-14,Cash,Karachi,Returned,1
+O2109,C1108,Shirt,Fashion,3,2150,2026-06-15,Card,Islamabad,Delivered,0
+O2110,C1109,Shoes,Fashion,1,5900,2026-06-16,Cash,Lahore,Delivered,0
+O2111,C1110,Watch,Fashion,2,15300,2026-06-17,Card,Karachi,Delivered,0
+O2112,C1111,Tablet,Electronics,1,80000,2026-06-18,Credit Card,Lahore,Delivered,0
+O2113,C1112,Phone,Electronics,1,50000,2026-06-19,Cash,Karachi,Delivered,0
+O2114,C1113,Laptop,Electronics,1,122000,2026-06-20,Card,Islamabad,Delivered,0
+O2115,C1114,Headphones,Electronics,2,3750,2026-06-21,Cash,Lahore,Returned,1
+O2116,C1115,Shirt,Fashion,4,2050,2026-06-22,Card,Karachi,Delivered,0
+O2117,C1116,Shoes,Fashion,1,5800,2026-06-23,Cash,Lahore,Delivered,0
+O2118,C1117,Watch,Fashion,2,15100,2026-06-24,Card,Karachi,Delivered,0
+O2119,C1118,Tablet,Electronics,1,81000,2026-06-25,Credit Card,Islamabad,Delivered,0
+O2120,C1119,Phone,Electronics,1,50500,2026-06-26,Cash,Lahore,Delivered,0
+O2121,C1120,Laptop,Electronics,1,119500,2026-06-27,Card,Karachi,Delivered,0
+O2122,C1121,Headphones,Electronics,2,3800,2026-06-28,Cash,Lahore,Returned,1
+O2123,C1122,Shirt,Fashion,3,2200,2026-06-29,Card,Karachi,Delivered,0
+O2124,C1123,Shoes,Fashion,2,5600,2026-06-30,Cash,Islamabad,Delivered,0
+O2125,C1124,Watch,Fashion,1,15000,2026-07-01,Card,Lahore,Delivered,0
+O2126,C1125,Tablet,Electronics,1,82500,2026-07-02,Credit Card,Karachi,Delivered,0
+O2127,C1126,Phone,Electronics,1,51000,2026-07-03,Cash,Lahore,Delivered,0
+O2128,C1127,Laptop,Electronics,1,120000,2026-07-04,Card,Karachi,Delivered,0
+O2129,C1128,Headphones,Electronics,2,3950,2026-07-05,Cash,Islamabad,Returned,1
+O2130,C1129,Shirt,Fashion,4,2100,2026-07-06,Card,Lahore,Delivered,0
+O2131,C1130,Shoes,Fashion,1,5800,2026-07-07,Cash,Karachi,Delivered,0
+O2132,C1131,Watch,Fashion,2,15200,2026-07-08,Card,Lahore,Delivered,0
+O2133,C1132,Tablet,Electronics,1,81500,2026-07-09,Credit Card,Karachi,Delivered,0
+O2134,C1133,Phone,Electronics,1,50800,2026-07-10,Cash,Lahore,Delivered,0
+O2135,C1134,Laptop,Electronics,1,121500,2026-07-11,Card,Karachi,Delivered,0
+O2136,C1135,Headphones,Electronics,2,3850,2026-07-12,Cash,Islamabad,Returned,1
+O2137,C1136,Shirt,Fashion,3,2150,2026-07-13,Card,Lahore,Delivered,0
+O2138,C1137,Shoes,Fashion,1,5900,2026-07-14,Cash,Karachi,Delivered,0
+O2139,C1138,Watch,Fashion,2,15350,2026-07-15,Card,Lahore,Delivered,0
+O2140,C1139,Tablet,Electronics,1,80000,2026-07-16,Credit Card,Karachi,Delivered,0
+O2141,C1140,Phone,Electronics,1,50000,2026-07-17,Cash,Islamabad,Delivered,0
+O2142,C1141,Laptop,Electronics,1,122500,2026-07-18,Card,Lahore,Delivered,0
+O2143,C1142,Headphones,Electronics,2,3900,2026-07-19,Cash,Karachi,Returned,1
+O2144,C1143,Shirt,Fashion,4,2100,2026-07-20,Card,Lahore,Delivered,0
+O2145,C1144,Shoes,Fashion,1,5800,2026-07-21,Cash,Karachi,Delivered,0
+O2146,C1145,Watch,Fashion,2,15100,2026-07-22,Card,Islamabad,Delivered,0
+O2147,C1146,Tablet,Electronics,1,82000,2026-07-23,Credit Card,Lahore,Delivered,0
+O2148,C1147,Phone,Electronics,1,51000,2026-07-24,Cash,Karachi,Delivered,0
+O2149,C1148,Laptop,Electronics,1,119000,2026-07-25,Card,Lahore,Delivered,0
+O2150,C1149,Headphones,Electronics,2,3750,2026-07-26,Cash,Karachi,Returned,1
+O2151,C1150,Shirt,Fashion,3,2200,2026-07-27,Card,Islamabad,Delivered,0
+O2152,C1151,Shoes,Fashion,2,5600,2026-07-28,Cash,Lahore,Delivered,0
+O2153,C1152,Watch,Fashion,1,15000,2026-07-29,Card,Karachi,Delivered,0
+O2154,C1153,Tablet,Electronics,1,81000,2026-07-30,Credit Card,Lahore,Delivered,0
+O2155,C1154,Phone,Electronics,1,50500,2026-07-31,Cash,Karachi,Delivered,0
+O2156,C1155,Laptop,Electronics,1,121000,2026-08-01,Card,Lahore,Delivered,0
+O2157,C1156,Headphones,Electronics,2,3950,2026-08-02,Cash,Karachi,Returned,1
+O2158,C1157,Shirt,Fashion,4,2050,2026-08-03,Card,Lahore,Delivered,0
+O2159,C1158,Shoes,Fashion,1,5800,2026-08-04,Cash,Islamabad,Delivered,0
+O2160,C1159,Watch,Fashion,2,15200,2026-08-05,Card,Karachi,Delivered,0
+O2161,C1160,Tablet,Electronics,1,82500,2026-08-06,Credit Card,Lahore,Delivered,0
+O2162,C1161,Phone,Electronics,1,50800,2026-08-07,Cash,Karachi,Delivered,0
+O2163,C1162,Laptop,Electronics,1,120500,2026-08-08,Card,Lahore,Delivered,0
+O2164,C1163,Headphones,Electronics,2,3800,2026-08-09,Cash,Karachi,Returned,1
+O2165,C1164,Shirt,Fashion,3,2150,2026-08-10,Card,Islamabad,Delivered,0
+O2166,C1165,Shoes,Fashion,1,5900,2026-08-11,Cash,Lahore,Delivered,0
+O2167,C1166,Watch,Fashion,2,15300,2026-08-12,Card,Karachi,Delivered,0
+O2168,C1167,Tablet,Electronics,1,80000,2026-08-13,Credit Card,Lahore,Delivered,0
+O2169,C1168,Phone,Electronics,1,50000,2026-08-14,Cash,Karachi,Delivered,0
+O2170,C1169,Laptop,Electronics,1,122000,2026-08-15,Card,Lahore,Delivered,0
+O2171,C1170,Headphones,Electronics,2,3900,2026-08-16,Cash,Islamabad,Returned,1
+O2172,C1171,Shirt,Fashion,4,2100,2026-08-17,Card,Karachi,Delivered,0
+O2173,C1172,Shoes,Fashion,1,5800,2026-08-18,Cash,Lahore,Delivered,0
+O2174,C1173,Watch,Fashion,2,15100,2026-08-19,Card,Karachi,Delivered,0
+O2175,C1174,Tablet,Electronics,1,81500,2026-08-20,Credit Card,Lahore,Delivered,0
+O2176,C1175,Phone,Electronics,1,51000,2026-08-21,Cash,Karachi,Delivered,0
+O2177,C1176,Laptop,Electronics,1,119500,2026-08-22,Card,Lahore,Delivered,0
+O2178,C1177,Headphones,Electronics,2,3850,2026-08-23,Cash,Karachi,Returned,1
+O2179,C1178,Shirt,Fashion,3,2200,2026-08-24,Card,Islamabad,Delivered,0
+O2180,C1179,Shoes,Fashion,2,5600,2026-08-25,Cash,Lahore,Delivered,0
+O2181,C1180,Watch,Fashion,1,15000,2026-08-26,Card,Karachi,Delivered,0
+O2182,C1181,Tablet,Electronics,1,82000,2026-08-27,Credit Card,Lahore,Delivered,0
+O2183,C1182,Phone,Electronics,1,50800,2026-08-28,Cash,Karachi,Delivered,0
+O2184,C1183,Laptop,Electronics,1,121500,2026-08-29,Card,Lahore,Delivered,0
+O2185,C1184,Headphones,Electronics,2,3750,2026-08-30,Cash,Islamabad,Returned,1
+O2186,C1185,Shirt,Fashion,4,2050,2026-08-31,Card,Karachi,Delivered,0
+O2187,C1186,Shoes,Fashion,1,5800,2026-09-01,Cash,Lahore,Delivered,0
+O2188,C1187,Watch,Fashion,2,15250,2026-09-02,Card,Karachi,Delivered,0
+O2189,C1188,Tablet,Electronics,1,80000,2026-09-03,Credit Card,Lahore,Delivered,0
+O2190,C1189,Phone,Electronics,1,50500,2026-09-04,Cash,Karachi,Delivered,0
+O2191,C1190,Laptop,Electronics,1,122500,2026-09-05,Card,Lahore,Delivered,0
+O2192,C1191,Headphones,Electronics,2,3900,2026-09-06,Cash,Karachi,Returned,1
+O2193,C1192,Shirt,Fashion,3,2150,2026-09-07,Card,Islamabad,Delivered,0
+O2194,C1193,Shoes,Fashion,1,5900,2026-09-08,Cash,Lahore,Delivered,0
+O2195,C1194,Watch,Fashion,2,15300,2026-09-09,Card,Karachi,Delivered,0
+O2196,C1195,Tablet,Electronics,1,81500,2026-09-10,Credit Card,Lahore,Delivered,0
+O2197,C1196,Phone,Electronics,1,51000,2026-09-11,Cash,Karachi,Delivered,0
+O2198,C1197,Laptop,Electronics,1,120000,2026-09-12,Card,Lahore,Delivered,0
+O2199,C1198,Headphones,Electronics,2,3800,2026-09-13,Cash,Islamabad,Returned,1
+O2200,C1199,Shirt,Fashion,4,2100,2026-09-14,Card,Karachi,Delivered,0
